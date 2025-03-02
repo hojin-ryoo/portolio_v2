@@ -2,14 +2,14 @@
 
 export const GLOBAL = {
   // Site metadata
-  username: "Zaggonaut",
-  rootUrl: "https://zaggonaut.dev",
-  shortDescription: "A Retro-Inspired Theme for Astro",
+  username: "Hojin Ryoo",
+  rootUrl: "https://hojin-ryoo.netlify.app",
+  shortDescription: "Portfolio Site for Hojin Ryoo",
   longDescription: "Zaggonaut is a retro-inspired theme for Astro, built using TypeScript, TailwindCSS, and Astro.",
   
   // Social media links
-  githubProfile: "https://github.com/RATIU5/zaggonaut",
-  twitterProfile: "https://twitter.com/",
+  githubProfile: "https://github.com/Akolyte",
+  twitterProfile: "https://x.com/HojinRyoo",
   
   // Common text names used throughout the site
   articlesName: "Articles",
@@ -31,7 +31,7 @@ export const GLOBAL = {
   projectLongDescription: "All of my projects, including both frontend and full-stack applications.",
 
   // Profile image
-  profileImage: "michael-dam-unsplash.webp",
+  profileImage: "hojin-ryoo-headshot.jpg",
 
   // Menu items
   menu: {
