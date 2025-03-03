@@ -12,12 +12,12 @@ export const GLOBAL = {
   twitterProfile: "https://x.com/HojinRyoo",
   
   // Common text names used throughout the site
-  articlesName: "Articles",
+  articlesName: "Blog Posts",
   projectsName: "Projects",
   viewAll: "View All",
   
   // Common descriptions used throughout the site
-  noArticles: "No featured articles yet.",
+  noArticles: "No featured blog posts yet.",
   noProjects: "No featured projects yet.",
 
   // Blog metadata
