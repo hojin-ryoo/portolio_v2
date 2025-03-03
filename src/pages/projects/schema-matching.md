@@ -117,7 +117,7 @@ For part B we used the John Hopkins repository discussed in the assignment promp
 
 The time series data had 3339 records, and 330 attributes. The July 11th data had 58 records and 18 attributes. The Dec 2nd data had the same number of records and attributes compared to the July 11th dataset. There were also no duplicates after dropping the duplicates using the drop_duplicates function. We show this using the number of records before the drop and after the drop. Looking below you can see that they are the same.
 
-![Shape 1](../../assets/schema_matcher/shape1.JPG) ![Shape 2](../../assets/schema_matcher/shape2.JPG)
+![Shape 1](../../assets/schema_matcher/shape1.JPG) ![Shape 2](../../assets/schema_matcher/shape2.jpg)
 
 Links for the different data are below.
 
