@@ -22,5 +22,3 @@ Last October I also got monetized on YouTube! It was really fun to grow my commu
 Additionally, my work responsibilities have increased with the new project that I'm on. It has been great as it has been full-stack work, meaning I've learned a lot about system design, front-end, and back-end standards and technologies. I feel like I'm slowly coming into my own as a developer, and I'm looking forward to the future and improving my skills and mastery of different domains related to web-development and data science.
 
 That's all for this update, thank you for reading and good luck with your own endeavors!
-
----
