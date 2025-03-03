@@ -8,7 +8,7 @@ featured: false
 filename: hawaiian-population-visualization
 ---
 
-![Narrative_Visualization](/src/images/hawaiian-population-viz/narrative_visualization.png)
+![Narrative_Visualization](../../assets/hawaiian-population-viz/narrative_visualization.png)
 
 ### Date: August 8th, 2023
 

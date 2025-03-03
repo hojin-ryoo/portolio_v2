@@ -8,7 +8,7 @@ featured: true
 filename: sentiment-comparison-political-parler-posts
 ---
 
-![comparison](/src/images/parler_twitter/twitter_vs_parler.png)
+![comparison](../../assets/parler_twitter/twitter_vs_parler.png)
 
 ### Date: May 10th, 2021
 
@@ -75,7 +75,7 @@ To have a corpus of posts and tweets that would be suitable to compare we had to
 
 After the train/test data was loaded the data was cleaned, and then formatted for Bag of Words representation. The Bag of words vectorizer used had a max feature limit of 25000 with n-grams set to 1-3. TF-IDF vectorization was also tried but results were not affected in metric testing and performed worse on the real data. After vectorization, the corpus created was split into train and test subsets with an 80-20 split. The logistic regression was then run and tuned to find the optimal model.
 
-![f1 accuracy](/src/images/parler_twitter/f1_accuracy.png)
+![f1 accuracy](../../assets/parler_twitter/f1_accuracy.png)
 
 **Sentiment analysis:**
 
@@ -83,23 +83,23 @@ Sentiment analysis was performed on the classified tweets that were considered p
 
 ## Findings
 
-![f1 accuracy nltk](/src/images/parler_twitter/num_tweets_platform_nltk.png)
+![f1 accuracy nltk](../../assets/parler_twitter/num_tweets_platform_nltk.png)
 
-![f1 accuracy textblob](/src/images/parler_twitter/num_tweets_platform_textblob.png)
+![f1 accuracy textblob](../../assets/parler_twitter/num_tweets_platform_textblob.png)
 
 When comparing the NLTK Vader sentiment vs the TextBlob sentiment tools there was a major difference in results. Referring to figure (blah) the NLTK sentiment results were more evenly distributed across the three classes of sentiment than TextBlob with counts being 782 negative, 2348 neutral, and 1202 positive posts for Twitter, and 1524 negative, 1389 neutral, and 1419 positive for Parler. In the TextBlob sentiment results we observed that a large number of the posts were classified as neutral for both Twitter and Parler, with counts being 256 negative, 3334 neutral, and 256 positive for Twitter, and 152 negative, 3253 neutral, and 927 positive for Parler.  
 
 Parler and Twitter posts for NLTK sentiment Twitter had a higher number of neutral posts (2348 Twitter posts vs 1389 Parler posts), however Parler had a higher number of negative posts (1202 Twitter posts vs 1419 Parler posts). For TextBlob sentiment Parler posts contained more positive posts, (256 Twitter posts vs 927 Parler posts) and the number of posts between platforms were similar for neutral and negative. (3334 Twitter posts vs 2523 Parler posts and 256 Twitter posts vs 152 Parler posts respectively)
 
-![results1](/src/images/parler_twitter/results_1.png)
+![results1](../../assets/parler_twitter/results_1.png)
 
 Comparing the **overall** average sentiment scores for Twitter and Parler from (figure) we observed that the NLTK sentiment scores for Parler were negative (0.019), and for Parler they were positive (0.057). However, both fall within the band for neutral, which was to be expected given that the distribution of post sentiment was even for NLTK Vader sentiment posts. For TextBlob both were positive, with Parler having a significantly higher average overall score than Twitter (0.136 vs 0.082). Both values also fall within the neutral band for sentiment scores.
 
-![results2](/src/images/parler_twitter/results_2.png)
+![results2](../../assets/parler_twitter/results_2.png)
 
 Comparing the average sentiment scores for **positive** sentiment between Twitter and Parler from (figure) we observe that for NLTK Vader Twitter is less positive on average than Parler (0.583 vs 0.680). The same occurs for TextBlob, but the difference is not nearly as significant. (0.567 vs 0.569) All values fall within the positive band for sentiment scores.
 
-![results3](/src/images/parler_twitter/results_3.png)
+![results3](../../assets/parler_twitter/results_3.png)
 
 Comparing the average sentiment scores for **negative** sentiment between Twitter and Parler from (figure) we observed that Parler posts were more negative than Twitter posts for NLTK Vader. However, the reverse is true for TextBlob, with Twitter posts being more negative than Parler posts. All values fall within the negative band for sentiment scores.
 

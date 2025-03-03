@@ -8,7 +8,7 @@ featured: true
 filename: predicting-oscar-winners-2021
 ---
 
-![Oscars 2021](/src/images/oscar_prediction/oscars_2021.png)
+![Oscars 2021](../../assets/oscar_prediction/oscars_2021.png)
 
 ### Date: May 5th, 2021
 
@@ -69,17 +69,17 @@ After this process the Natural Language Toolkit (NLTK) package from python was u
 
 In order to calculate the probability of a person winning the Oscars, we needed to scale the entire score to 1. As we have 4 features, sentiment score, IMDB score, Rotten Tomatoes audience score, and Rotten tomatoes critic score, for this project each score was scaled to between 0 and 0.25. Once all the features were scaled, they were added up together to calculate the probability of a person/picture winning the Oscars.
 
-![design diagram](/src/images/oscar_prediction/design_diagram.png)
+![design diagram](../../assets/oscar_prediction/design_diagram.png)
 
 This entire methodology was performed on the five categories that we were predicting (Best Actor, Actress, Supporting Actor, Supporting Actress, Picture). The results were then compiled into a CSV in tidy data format to visualize in ggplot in R. This included the name, category, imdb score, rotten tomato audience score, rotten tomato critic score, sentiment score, and probability of oscar win.
 
-![pandas](/src/images/oscar_prediction/pandas.jpg)
+![pandas](../../assets/oscar_prediction/pandas.jpg)
 
 ## Results
 
 After all the pre-processing steps，and using all the methods we talked about above, we finally can get all the results we want. For each category, we get the results of sentiment score and the oscar winning probability.
 
-![compiled data](/src/images/oscar_prediction/compiled_data.png)
+![compiled data](../../assets/oscar_prediction/compiled_data.png)
 
 We put all the results in the excel and then import the excel to R to make it visualize as bar plots.
 
@@ -100,15 +100,15 @@ To get the bar plot from which we can visually determine which one is predicted 
 
 ### For the sentiment score predictions
 
-![best actor sentiment](/src/images/oscar_prediction/best_actor_sentiment_ex.png)
+![best actor sentiment](../../assets/oscar_prediction/best_actor_sentiment_ex.png)
 
-![best actress sentiment](/src/images/oscar_prediction/best_actress_sentiment.png)
+![best actress sentiment](../../assets/oscar_prediction/best_actress_sentiment.png)
 
-![best sup actor sentiment](/src/images/oscar_prediction/best_supporting_actor_sentiment.png)
+![best sup actor sentiment](../../assets/oscar_prediction/best_supporting_actor_sentiment.png)
 
-![best sup actress sentiment](/src/images/oscar_prediction/best_supporting_actress_sentiment.png)
+![best sup actress sentiment](../../assets/oscar_prediction/best_supporting_actress_sentiment.png)
 
-![best movie sentiment](/src/images/oscar_prediction/best_movie_sentiment.png)
+![best movie sentiment](../../assets/oscar_prediction/best_movie_sentiment.png)
 
 ### Sentiment Score Predictions Results Summary
 
@@ -116,15 +116,15 @@ For the sentiment score winner predictions, we got the predictions right for bes
 
 ### For the Oscar Winner probability predictions
 
-![best actor](/src/images/oscar_prediction/best_actor.png)
+![best actor](../../assets/oscar_prediction/best_actor.png)
 
-![best actress](/src/images/oscar_prediction/best_actress.png)
+![best actress](../../assets/oscar_prediction/best_actress.png)
 
-![best sup actor](/src/images/oscar_prediction/best_supporting_actor.png)
+![best sup actor](../../assets/oscar_prediction/best_supporting_actor.png)
 
-![best sup actress](/src/images/oscar_prediction/best_supporting_actress.png)
+![best sup actress](../../assets/oscar_prediction/best_supporting_actress.png)
 
-![best movie](/src/images/oscar_prediction/best_movie.png)
+![best movie](../../assets/oscar_prediction/best_movie.png)
 
 ### Oscar Winner Probability Prediction Results Summary
 

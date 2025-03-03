@@ -9,7 +9,7 @@ timestamp: 2021-08-21T02:39:03+00:00
 filename: working-at-gm
 ---
 
-![GM](/src/images/blog/general_motors.jpg)
+![GM](../../assets/blog/general_motors.jpg)
 
 Hello! I'm sorry that I haven't posted in a long time. There has been a lot going in my life so it completely slipped my mind to continue posting.
 

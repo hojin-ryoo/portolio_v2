@@ -8,7 +8,7 @@ featured: false
 filename: schema-matching
 ---
 
-![data](/src/images/schema_matcher/data.jpg)
+![data](../../assets/schema_matcher/data.jpg)
 
 ### Date: December 31st, 2020
 
@@ -37,11 +37,11 @@ Our group used a multitude of datasets. We did not use the same data that we use
 We used the drop_duplicates() function on both datasets once they were converted into dataframes, and after comparing the shape of both the original and the dropped duplicate dataframes, the number of records was the same, so we concluded that there were no
 duplicates.
 
-![Duplicate 1](/src/images/schema_matcher/dup1.JPG) ![Duplicate 2](/src/images/schema_matcher/dup2.JPG)
+![Duplicate 1](../../assets/schema_matcher/dup1.JPG) ![Duplicate 2](../../assets/schema_matcher/dup2.JPG)
 
 To determine where the missing values were we used the count function to count the cells in each column that had non-missing values and compared that to the total number of records.
 
-![NA 1](/src/images/schema_matcher/na1.JPG) ![NA 2](/src/images/schema_matcher/na2.JPG) ![Total Records](/src/images/schema_matcher/total_records.JPG)
+![NA 1](../../assets/schema_matcher/na1.JPG) ![NA 2](../../assets/schema_matcher/na2.JPG) ![Total Records](../../assets/schema_matcher/total_records.JPG)
 
 As you can see from the number of records compared to the count of non-missing values, the dataworld dataframe, the url, phone_number, fax, email, website, facebook, twitter, instagram, pinterest, and youtube values all have missing values. Some of these attributes had all missing values, so we decided to remove them. We did not remove the column website because we thought it would be interesting to have later on for the jaccard similarity matching. We removed 12 attributes in total.
 
@@ -117,7 +117,7 @@ For part B we used the John Hopkins repository discussed in the assignment promp
 
 The time series data had 3339 records, and 330 attributes. The July 11th data had 58 records and 18 attributes. The Dec 2nd data had the same number of records and attributes compared to the July 11th dataset. There were also no duplicates after dropping the duplicates using the drop_duplicates function. We show this using the number of records before the drop and after the drop. Looking below you can see that they are the same.
 
-![Shape 1](/src/images/schema_matcher/shape1.JPG) ![Shape 2](/src/images/schema_matcher/shape2.JPG)
+![Shape 1](../../assets/schema_matcher/shape1.JPG) ![Shape 2](../../assets/schema_matcher/shape2.JPG)
 
 Links for the different data are below.
 
@@ -133,7 +133,7 @@ Links for the different data are below.
 
 Comparing the column names some are the same such as name, city, latitude, and longitude, totaling to 4. That leaves 7 attributes that are different for dataworld and 6 for kaggle. Some of the names are completely different from their counterparts such as state in the kaggle dataframe compared to province from the kaggle dataframe. Therefore we decided to use instance-based matching for the jaccard.
 
-![Instance Logic](/src/images/schema_matcher/instance_logic.JPG)
+![Instance Logic](../../assets/schema_matcher/instance_logic.JPG)
 
 Moving along we compared the performance between using the total word, 2-grams, and 3-grams. In order to get grams we had to create a function that could make the tokens which is shown below. The function is changed depending on whether we wish to create 2-gram or 3-gram tokens. The 3-token code is commented out.
 
@@ -189,15 +189,15 @@ The results of the attributes of the kaggle dataframe vs the similarity score ar
 
 3-token similarity measure:
 
-![Similarity Measure 3 Chart](/src/images/schema_matcher/sim_measure_3.png)
+![Similarity Measure 3 Chart](../../assets/schema_matcher/sim_measure_3.png)
 
 2-token similarity measure:
 
-![Similarity Measure 2 Chart](/src/images/schema_matcher/sim_measure_2.png)
+![Similarity Measure 2 Chart](../../assets/schema_matcher/sim_measure_2.png)
 
 Word token similarity measure:
 
-![Similarity Measure Word Chart](/src/images/schema_matcher/sim_measure_word.png)
+![Similarity Measure Word Chart](../../assets/schema_matcher/sim_measure_word.png)
 
 ### Conclusion A
 
@@ -215,7 +215,7 @@ From our initial thoughts it was surprising that the 2 token and 3 token jaccard
 
 When we trained the schema matcher we ran into a problem where flexmatcher doesn’t like dealing with numbers as it applies the .lower() function at some point in the method. As such we had to turn the attributes into strings using the .astype(str) function. After this it ran with lots of warnings but still returned some results. We also had to change the version of pandas to 0.25.1 because FlexMatcher uses the ix method from a previous version of pandas. The schema list had the dataframes for daily covid cases from July 11th and December 2nd. We then got the dictionary of those dataframes to put in the mapping list, and then we put them into the FlexMatcher method with parameter sample size set to 500 to train our schema matcher. The code and the results are shown below.
 
-![Import FlexMatcher](/src/images/schema_matcher/flexmatcher.jpg)
+![Import FlexMatcher](../../assets/schema_matcher/flexmatcher.jpg)
 
 ### Results B
 
@@ -226,7 +226,7 @@ predicted_mapping = fm.make_prediction(covid_cases.astype(str))
 predicted_mapping
 ```
 
-![FlexMatcher Results](/src/images/schema_matcher/flexmatcher_results.JPG)
+![FlexMatcher Results](../../assets/schema_matcher/flexmatcher_results.JPG)
 
 From looking at FIPS in the covid daily cases schema, it appears to be an incorrect match as the 0’s in the time series schema are from deaths, and FIPS does not refer to the death count per day.
 

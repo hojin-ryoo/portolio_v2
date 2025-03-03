@@ -8,7 +8,7 @@ featured: true
 filename: data-science-capstone-park-visitation-covid
 ---
 
-![dashboard](/imgs/capstone_covid_dashboard/dashboard.JPG)
+![dashboard](../../assets/capstone_covid_dashboard/dashboard.JPG)
 
 ### Date: May 11th, 2021
 
