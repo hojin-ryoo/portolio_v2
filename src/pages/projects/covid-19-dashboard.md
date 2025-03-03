@@ -4,7 +4,7 @@ title: COVID-19 Dashboard
 description: Continental US COVID 19 Cases Dashboard (up to 2023)
 tags: ["Tableau", "Healthcare"]
 timestamp: 2023-07-08T02:39:03+00:00
-featured: true
+featured: false
 filename: covid-19-dashboard
 ---
 
