@@ -2,7 +2,7 @@
 layout: ../../layouts/ProjectLayout.astro
 title: COVID-19 Park Visitation Dashboard
 description: Dashboard that allows users to select parks and see their vistiation data with visuals and charts through the pandemic
-tags: ["Python", "JavaScript", "MongoDB", "React", "Data Science", "Machine Learning"]
+tags: ["Python", "JavaScript", "MongoDB", "React", "Machine Learning"]
 timestamp: 2021-05-12T02:39:03+00:00
 featured: true
 filename: data-science-capstone-park-visitation-covid
@@ -16,7 +16,7 @@ filename: data-science-capstone-park-visitation-covid
 
 ### Instructor: Prasenjit Mitra (Penn State University, College of Information Sciences and Technology)
 
-## Project Summary
+---
 
 ### Overview
 

@@ -15,6 +15,8 @@ filename: trace
 
 ### Class: CS598 Deep Learning for Healthcare @ UIUC
 
+---
+
 ## Project Summary
 
 This repository is our attempt at reproducing the experiments in [Learning Unsupervised Representations for ICU Timeseries](https://proceedings.mlr.press/v174/weatherhead22a/weatherhead22a.pdf).
