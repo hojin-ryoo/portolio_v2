@@ -18,6 +18,8 @@ filename: sentiment-comparison-political-parler-posts
 
 ### By Hojin Ryoo, Ben Giles, Hojin Ryoo, and Debanshu Das
 
+---
+
 ## Abstract
 
 The insurrection that took place on January 6th, 2021 is an event that will go down in history as a catastrophic failure by the U.S. government. Heads eventually turned towards Parler, a social media site similar to Twitter as a breeding ground for the extremists to plan their attack on the capitol. Our team compared sentiment scores for Parler and Twitter posts. Posts were gathered from Twitter and Parler prior to January 6th. Separate posts were gathered to train a binary classifier that labels posts as political or non-political. The political posts were then processed to calculate their sentiment scores, and the averages were compared. The average negative sentiment scores for Twitter was higher than Parler for TextBlob, but was lower than Parler for NLTKVader. Average sentiment scores for positive and neutral were relatively similar between TextBlob and NLTKVader. Results are inconclusive, with NLTK Vader and TextBlob resulting in different results for average negative sentiment. In future work the classification testing and training sets should be much larger to better classify posts as political or non-political. More finely-tuned methods for sentiment analysis should be used to accurately determine whether negative and positive posts on average were different depending on sentiment analyzer.
