@@ -4,7 +4,7 @@ title: Migrating my personal website to Astro
 description: My personal portfolio is in need of an upgrade, so here it is!
 tags: ["Work"]
 time: 1
-featured: true
+featured: false
 timestamp: 2025-03-02T02:39:03+00:00
 filename: migration-personal-portfolio
 ---
