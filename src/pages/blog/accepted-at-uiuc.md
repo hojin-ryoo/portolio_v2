@@ -9,7 +9,7 @@ timestamp: 2022-05-21T02:39:03+00:00
 filename: accepted-at-uiuc
 ---
 
-![uiuc](/images/blog/grainger.jpg)
+![uiuc](/src/images/blog/grainger.jpg)
 
 Hey! Time for another update.
 

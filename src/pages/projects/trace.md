@@ -9,7 +9,7 @@ featured: true
 filename: trace
 ---
 
-![Machine_Learning_Healthcare](/images/trace/machine-learning.png)
+![Machine_Learning_Healthcare](/src/images/trace/machine-learning.png)
 
 ### Date: May 8th, 2023
 
@@ -55,7 +55,7 @@ There were many different signals present for each patient in the data. Not all 
 
 In the below chart, the y-axis represents the number of patients that the signal was present, and the x-axis represents each signal.
 
-![Signal_Frequency_Chart](/images/trace/signal_frequency.png)
+![Signal_Frequency_Chart](/src/images/trace/signal_frequency.png)
 
 ## Methodology explanation and examples
 
@@ -411,17 +411,17 @@ print()
 
 ## Illustration of the results
 
-![Table 1](/images/trace/table_1.png)
+![Table 1](/src/images/trace/table_1.png)
 
 From our results it is clear that TRACE outperforms the other models. It has a better AUROC and AUPRC score compared to the other models we chose as baselines. This proves our claim/hypothesis that TRACE would outperform all the baseline models
 
 These were the results from the original paper:
 
-![Table 2](/images/trace/table_2.png)
+![Table 2](/src/images/trace/table_2.png)
 
-![Table 3](/images/trace/table_3.png)
+![Table 3](/src/images/trace/table_3.png)
 
-![Table 4](/images/trace/table_4.png)
+![Table 4](/src/images/trace/table_4.png)
 
 Comparing to our own results, it is interesting to note that AUPRC score does not go above 0.5 for any of the models in the original paper. This means that the model performs worse than random chance at making positive predictions. Comparing that to the performance on the MIMIC dataset, our AUPRC scores overall are much higher in comparison.
 

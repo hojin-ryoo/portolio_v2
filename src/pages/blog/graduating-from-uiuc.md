@@ -9,7 +9,7 @@ timestamp: 2023-08-21T02:39:03+00:00
 filename: graduating-from-uiuc
 ---
 
-![happy-to-graduate](/images/blog/uiuc-graduation.jpeg)
+![happy-to-graduate](/src/images/blog/uiuc-graduation.jpeg)
 
 As of today, I have graduated from the University of Illinois, Urbana Champaign with a 4.00 GPA! After countless nights after work spent on assignments, test, and coding I am finally done.
 

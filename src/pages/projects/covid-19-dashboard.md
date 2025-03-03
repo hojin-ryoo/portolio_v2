@@ -8,7 +8,7 @@ featured: false
 filename: covid-19-dashboard
 ---
 
-![Covid_19_Dashboard](/images/tableau_covid_19_dashboard/dashboard.png)
+![Covid_19_Dashboard](/src/images/tableau_covid_19_dashboard/dashboard.png)
 
 ### Date: July 8th, 2023
 

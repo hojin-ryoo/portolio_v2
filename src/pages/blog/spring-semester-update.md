@@ -9,7 +9,7 @@ timestamp: 2023-04-17T02:39:03+00:00
 filename: spring-semester-update
 ---
 
-![uiuc](/images/blog/Spring_UIUC.jpg)
+![uiuc](/src/images/blog/Spring_UIUC.jpg)
 
 Greetings,
 

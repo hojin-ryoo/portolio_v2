@@ -9,6 +9,6 @@ timestamp: 2021-05-09T02:39:03+00:00
 filename: graduating-from-psu
 ---
 
-![graduation](/images/blog/graduation.JPG)
+![graduation](/src/images/blog/graduation.JPG)
 
 Today I graduated from Penn State University with a B.S. in Data Sciences! I am so happy and excited that my journey through my undergraduate degree has come to a close. I'm not sure what the future will hold for me, but for now I am very excited to look at career options and look forward to the coming years in my development as a Data Scientist!
