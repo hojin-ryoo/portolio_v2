@@ -4,7 +4,7 @@ title: Schema Matching with FlexMatcher
 description: A demonstration of data mining and cleaning, followed by schema matching
 tags: ["Python", "Data Mining", "Data Cleaning"]
 timestamp: 2020-12-31T02:39:03+00:00
-featured: true
+featured: false
 filename: schema-matching
 ---
 
