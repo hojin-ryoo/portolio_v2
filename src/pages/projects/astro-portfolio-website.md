@@ -9,7 +9,7 @@ featured: true
 filename: astro-portfolio-website
 ---
 
-I've been doing a lot of more advanced web development at work, so I figured I could explore some more modern frameworks in my spare time.
+I've been doing a lot more advanced web development at work, so I figured now would be a good time to explore some more modern frameworks.
 
 I stumbled across Astro, and I really enjoyed the straightfoward TypeScript injection into files, and how straightfoward the framework is overall. Therefore, I have now migrated my entire portfolio website to Astro! I'm looking forward to adding more features to the website in the future, so stay tuned!
 
