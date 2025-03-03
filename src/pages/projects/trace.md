@@ -2,7 +2,7 @@
 layout: ../../layouts/ProjectLayout.astro
 title: TRACE for Cardiac Arrest Prediction
 description: Reproduction of machine learning paper
-tags: ["Machine Learning", "Healthcare", "Deep Learning"]
+tags: ["Python", "Machine Learning", "Healthcare", "Deep Learning"]
 githubUrl: https://github.com/akhilbhamidipati/TRACE_mimic
 timestamp: 2023-05-08T02:39:03+00:00
 featured: true
