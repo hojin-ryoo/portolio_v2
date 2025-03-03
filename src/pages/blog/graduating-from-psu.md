@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogLayout.astro
 title: Graduating from PSU!
-description: Today I graduate from PSU! Woohoo!
+description: Today I graduate from PSU with my Bachelor of Science in Data Sciences!
 tags: ["Bachelors"]
 time: 1
 featured: true

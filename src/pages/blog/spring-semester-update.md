@@ -4,7 +4,7 @@ title: Spring Semester Update
 description: My second to last semester at UIUC!
 tags: ["Masters"]
 time: 1
-featured: true
+featured: false
 timestamp: 2023-04-17T02:39:03+00:00
 filename: spring-semester-update
 ---
