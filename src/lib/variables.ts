@@ -4,8 +4,8 @@ export const GLOBAL = {
   // Site metadata
   username: "Hojin Ryoo",
   rootUrl: "https://hojin-ryoo.netlify.app",
-  shortDescription: "Portfolio Site",
-  longDescription: "Zaggonaut is a retro-inspired theme for Astro, built using TypeScript, TailwindCSS, and Astro.",
+  shortDescription: "Portfolio",
+  longDescription: "Portfolio Site using the Astro framework, built using TypeScript, TailwindCSS, and Astro.",
   
   // Social media links
   githubProfile: "https://github.com/Akolyte",
